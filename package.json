@@ -1,10 +1,10 @@
 {
-  "name": "babel-plugin-react-intl",
+  "name": "babel-plugin-react-intl-zbox",
   "version": "2.0.0",
   "description": "Extracts string messages for translation from modules that use React Intl.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yahoo/babel-plugin-react-intl.git"
+    "url": "git+https://github.com/enahum/babel-plugin-react-intl-zbox.git"
   },
   "license": "BSD-3-Clause",
   "main": "lib/index.js",
