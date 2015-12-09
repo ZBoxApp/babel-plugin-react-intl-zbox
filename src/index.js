@@ -65,7 +65,7 @@ export default function ({types: t}) {
                 return hash;
             }
 
-            let value = getMessageDescriptorValue(valuePath).trim();
+            let value = getMessageDescriptorValue(valuePath);
 
             if (key === 'defaultMessage') {
                 try {
