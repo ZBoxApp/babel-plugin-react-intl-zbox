@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-react-intl-zbox",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Extracts string messages for translation from modules that use React Intl. This is a modification from Eric Ferraiuolo babel-plugin-react-intl package",
   "repository": {
     "type": "git",
