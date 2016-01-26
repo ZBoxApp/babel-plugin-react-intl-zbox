@@ -1,27 +1,26 @@
 {
   "name": "babel-plugin-react-intl-zbox",
   "version": "2.0.0",
-  "description": "Extracts string messages for translation from modules that use React Intl. This is a FROM from Eric Ferraiuolo",
+  "description": "Extracts string messages for translation from modules that use React Intl. This is a modification from Eric Ferraiuolo babel-plugin-react-intl package",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/enahum/babel-plugin-react-intl-zbox.git"
   },
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "main": "lib/index.js",
-  "author": "Eric Ferraiuolo <edf@ericf.me>",
+  "author": "Elias Nahum <elias@zboxapp.com>",
   "dependencies": {
     "babel-runtime": "^6.2.0",
     "intl-messageformat-parser": "^1.2.0",
     "mkdirp": "^0.5.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.1.18",
     "babel-eslint": "^4.1.5",
     "babel-plugin-transform-object-rest-spread": "^6.1.18",
     "babel-plugin-transform-runtime": "^6.1.18",
     "babel-preset-es2015": "^6.1.18",
     "eslint": "^1.9.0",
-    "rimraf": "^2.4.3"
+    "rimraf": "^2.5.0"
   },
   "scripts": {
     "lint": "eslint src/",

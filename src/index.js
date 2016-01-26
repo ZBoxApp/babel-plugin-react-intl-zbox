@@ -134,7 +134,7 @@ export default function ({types: t}) {
             return false;
         }
 
-        return importedNames.some((name) => path.referencesImport(mod, name));
+        return importedNames.some((name) => path.hub.file.code.indexOf(name) > -1);
     }
 
     return {
