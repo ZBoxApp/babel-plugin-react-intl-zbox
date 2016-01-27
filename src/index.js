@@ -22,7 +22,7 @@ const DESCRIPTOR_PROPS = new Set(['id', 'description', 'defaultMessage']);
 
 export default function ({types: t}) {
     function getModuleSourceName(opts) {
-        return opts.moduleSourceName || 'react-intl';
+        return opts.moduleSourceName || 'mm-intl';
     }
 
     function getMessageDescriptorKey(path) {
@@ -134,7 +134,7 @@ export default function ({types: t}) {
             return false;
         }
 
-        return importedNames.some((name) => path.hub.file.code.indexOf(name) > -1);
+        return importedNames.some((name) => path.referencesImport(mod, name));
     }
 
     return {
