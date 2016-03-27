@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- 5.9.0
+deploy:
+  provider: npm
+  skip_cleanup: true
+  email: nahumhbl@gmail.com
+  api_key:
+    secure: VweEPfD1Eex6uViWIZFwWC4pboZklTKqoftoFZhX30/FmDnb36wgUBk64uUhW/0jmjMPQt3J0Nm8Jwswpzrj2Z+KVRek9x7lvlWu1LQG020I1+Q2FxWMDIyj0vSGlqgL/qmm3YSMc9ysF6h17ZyfrUckM6b5NcY3ZjTLwAEYRN0SEXHtYwnSRlyDtgV5BWCPRk+6kd23oPFpyBU85sygwlnvuXxD0+ygYDlRGP82TITXJs+DQI0ahQOx4BXKy4pgcaSkNO3EgONfCOxci/y2ALmcp0hjzjjlxST3msKu5x+6as2FrssY5YWzYlRO2AmvR5i3CrNDypa+L7xPu3sw8WF75ayvyXoYD9tSXJBIiU1vwCJPdDfeQ8HjhdbLYzVUwAfCVlgtfYv26QnrRq0akiKAmb9oyPw/DWOsAaY9dSishxz+EC2x65WW/39KpFPjJAr4x14Ky3G+EW6l19011QJOSP6sLtkW9BT9Wh2KgMm1zGfn6TJp+Cd6s5gE+DpDkmwqpzJ2HDW/0p3ANSrt+P2I+MqqFADc5B+/WTtI3PEyxtGfhaHvAspXYnz7m020ijCpKWqcY44GqUy+jOvDMX6atGUVXyFca/7HJyj9DhrCwM34dd2s3pKwrBGvCL/BUGOG5kMfSjapPUOCiR20ZSTR+EaZuR6RvhIQ1zqQuSY=
+  on:
+    tags: true
+    repo: ZBoxApp/babel-plugin-zbox-intl
